@@ -1,8 +1,8 @@
 {
-	"profiles": {
-		"ThemeConverter": {
-			"commandName": "Project",
-			"commandLineArgs": ""
-		}
-	}
+  "profiles": {
+    "ThemeConverter": {
+      "commandName": "Project",
+      "commandLineArgs": ""
+    }
+  }
 }

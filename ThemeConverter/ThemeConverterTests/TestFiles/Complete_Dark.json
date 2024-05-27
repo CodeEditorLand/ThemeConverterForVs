@@ -566,7 +566,10 @@
 	},
 	"tokenColors": [
 		{
-			"scope": ["meta.embedded", "source.groovy.embedded"],
+			"scope": [
+				"meta.embedded",
+				"source.groovy.embedded"
+			],
 			"settings": {
 				"foreground": "#D4D4D4"
 			}
@@ -726,7 +729,10 @@
 			}
 		},
 		{
-			"scope": ["meta.preprocessor", "entity.name.function.preprocessor"],
+			"scope": [
+				"meta.preprocessor",
+				"entity.name.function.preprocessor"
+			],
 			"settings": {
 				"foreground": "#569CD6"
 			}
@@ -768,13 +774,19 @@
 			}
 		},
 		{
-			"scope": ["storage.modifier", "keyword.operator.noexcept"],
+			"scope": [
+				"storage.modifier",
+				"keyword.operator.noexcept"
+			],
 			"settings": {
 				"foreground": "#569CD6"
 			}
 		},
 		{
-			"scope": ["string", "meta.embedded.assembly"],
+			"scope": [
+				"string",
+				"meta.embedded.assembly"
+			],
 			"settings": {
 				"foreground": "#CE9178"
 			}
@@ -808,7 +820,9 @@
 			}
 		},
 		{
-			"scope": ["meta.template.expression"],
+			"scope": [
+				"meta.template.expression"
+			],
 			"settings": {
 				"foreground": "#D4D4D4"
 			}
