@@ -1,28 +1,34 @@
 # Description
 
-This test plan is for verifying whether a theme converted by [Theme-Converter](https://github.com/microsoft/theme-converter/tree/main/ThemeConverter/ThemeConverter) will severely break the readability on common user workflows.
-For each step, observe if the UI is readable under default/selected/hovered situation, when the window has focus and doesn't have focus.
+This test plan is for verifying whether a theme converted by
+[Theme-Converter](https://github.com/microsoft/theme-converter/tree/main/ThemeConverter/ThemeConverter)
+will severely break the readability on common user workflows. For each step,
+observe if the UI is readable under default/selected/hovered situation, when the
+window has focus and doesn't have focus.
 
 # Prerequisites
 
-VS 2022 Preview 3 or later, with the theme to be tested installed.
-VS Code *(optional)*
+VS 2022 Preview 3 or later, with the theme to be tested installed. VS Code
+_(optional)_
 
 ### Note
 
-Scenarios marked with **VS Code compare** in the title should be compared with VS Code to see if there's any obvious color mismatch.
+Scenarios marked with **VS Code compare** in the title should be compared with
+VS Code to see if there's any obvious color mismatch.
 
 # Scenarios
 
 ## Scenario 1: Create a new project from the Start Window
 
-1. Open the Start Window: navigate to File -> Start Window; select the Start Window icon from the toolbar; 
+1. Open the Start Window: navigate to File -> Start Window; select the Start
+   Window icon from the toolbar;
 2. Select "Create a new project"
 3. Create a new project using an available template
 
 ## Scenario 2: Editing a file (VS Code Compare)
 
-1. Open different types of files ([sample files](https://github.com/kai-oswald/NightOwl-VS-Theme/tree/master/demo))
+1. Open different types of files
+   ([sample files](https://github.com/kai-oswald/NightOwl-VS-Theme/tree/master/demo))
 
 ## Scenario 3: Debugging (VS Code Compare)
 
@@ -34,7 +40,7 @@ Scenarios marked with **VS Code compare** in the title should be compared with V
 
 1. Open the project's folder (File > Open Folder...)
 2. Place a breakpoint at the same location
-3. Select Run > Start Debugging 
+3. Select Run > Start Debugging
 
 ## Scenario 4: Install extension from extension manager
 
@@ -55,8 +61,8 @@ Scenarios marked with **VS Code compare** in the title should be compared with V
 
 ### VS Code instruction:
 
-1. The corresponding page is the File Explorer 
- 
+1. The corresponding page is the File Explorer
+
 ![image](https://user-images.githubusercontent.com/14095891/129639337-f78e5b53-bcce-4ee5-a885-fa15cb390f19.png)
 
 2. The search window will be invoked by 'Ctrl + T`
