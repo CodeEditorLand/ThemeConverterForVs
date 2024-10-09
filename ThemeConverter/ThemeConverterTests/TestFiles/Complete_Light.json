@@ -566,10 +566,7 @@
 	},
 	"tokenColors": [
 		{
-			"scope": [
-				"meta.embedded",
-				"source.groovy.embedded"
-			],
+			"scope": ["meta.embedded", "source.groovy.embedded"],
 			"settings": {
 				"foreground": "#000000"
 			}
@@ -726,10 +723,7 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.preprocessor",
-				"entity.name.function.preprocessor"
-			],
+			"scope": ["meta.preprocessor", "entity.name.function.preprocessor"],
 			"settings": {
 				"foreground": "#0000FF"
 			}
@@ -765,19 +759,13 @@
 			}
 		},
 		{
-			"scope": [
-				"storage.modifier",
-				"keyword.operator.noexcept"
-			],
+			"scope": ["storage.modifier", "keyword.operator.noexcept"],
 			"settings": {
 				"foreground": "#0000FF"
 			}
 		},
 		{
-			"scope": [
-				"string",
-				"meta.embedded.assembly"
-			],
+			"scope": ["string", "meta.embedded.assembly"],
 			"settings": {
 				"foreground": "#A31515"
 			}
@@ -821,9 +809,7 @@
 			}
 		},
 		{
-			"scope": [
-				"meta.template.expression"
-			],
+			"scope": ["meta.template.expression"],
 			"settings": {
 				"foreground": "#000000"
 			}
@@ -856,9 +842,7 @@
 			}
 		},
 		{
-			"scope": [
-				"support.type.property-name.json"
-			],
+			"scope": ["support.type.property-name.json"],
 			"settings": {
 				"foreground": "#0451A5"
 			}
