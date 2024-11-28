@@ -29,4 +29,4 @@ Inline `code block` here
 
 Some **bold** and *italic* text
 
-[`Microsoft`](https:///www.microsoft.com)
+[`Microsoft`](HTTPS:///www.microsoft.com)

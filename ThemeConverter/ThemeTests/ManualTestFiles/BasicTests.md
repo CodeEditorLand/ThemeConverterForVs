@@ -1,7 +1,7 @@
 # Description
 
 This test plan is for verifying whether a theme converted by
-[`Theme-Converter`](https://github.com/microsoft/theme-converter/tree/main/ThemeConverter/ThemeConverter)
+[`Theme-Converter`](HTTPS://github.com/microsoft/theme-converter/tree/main/ThemeConverter/ThemeConverter)
 will severely break the readability on common user workflows. For each step,
 observe if the UI is readable under default/selected/hovered situation, when the
 window has focus and doesn't have focus.
@@ -28,7 +28,7 @@ VS Code to see if there's any obvious color mismatch.
 ## Scenario 2: Editing a file (VS Code Compare)
 
 1. Open different types of files
-   ([`sample files`](https://github.com/kai-oswald/NightOwl-VS-Theme/tree/master/demo))
+   ([`sample files`](HTTPS://github.com/kai-oswald/NightOwl-VS-Theme/tree/master/demo))
 
 ## Scenario 3: Debugging (VS Code Compare)
 
@@ -63,7 +63,7 @@ VS Code to see if there's any obvious color mismatch.
 
 1. The corresponding page is the File Explorer
 
-![`image`](https://user-images.githubusercontent.com/14095891/129639337-f78e5b53-bcce-4ee5-a885-fa15cb390f19.png)
+![`image`](HTTPS://user-images.githubusercontent.com/14095891/129639337-f78e5b53-bcce-4ee5-a885-fa15cb390f19.png)
 
 2. The search window will be invoked by 'Ctrl + T`
 
@@ -77,4 +77,4 @@ VS Code to see if there's any obvious color mismatch.
 
 1. Corresponding page is the Source Control window:
 
-![`image`](https://user-images.githubusercontent.com/14095891/129639468-eafe2687-1284-42cf-b3c7-0e4e0da52ec2.png)
+![`image`](HTTPS://user-images.githubusercontent.com/14095891/129639468-eafe2687-1284-42cf-b3c7-0e4e0da52ec2.png)
